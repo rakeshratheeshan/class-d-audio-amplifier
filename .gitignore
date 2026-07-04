@@ -1,0 +1,56 @@
+# ── LTspice ──────────────────────────────────────────────
+*.raw
+*.op.raw
+*.log
+*.fft
+*.net
+*.ba9
+
+# ── Altium Designer ──────────────────────────────────────
+*.~*
+History/
+__Previews/
+*.GBL
+*.GTL
+*.GBS
+*.GTS
+*.GBO
+*.GTO
+*.DRL
+*.apr
+*.apr
+*.REP
+*.RUL
+*.Rpt
+ProjectLogs/
+*.PrjPCBStructure
+*.OutJob
+
+# Keep Gerbers that are intentionally exported
+!pcb/layout/gerbers/
+
+# ── LaTeX ─────────────────────────────────────────────────
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+*.bcf
+*.run.xml
+
+# ── OS files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor files ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
